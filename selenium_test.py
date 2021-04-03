@@ -13,4 +13,6 @@ driver.implicitly_wait(3)
 
 driver.find_element_by_id("submit").click()
 
+print("Test Done Successfully.")
+
 driver.quit()
